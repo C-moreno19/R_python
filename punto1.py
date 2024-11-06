@@ -1,7 +1,13 @@
-numero = int(input("Ingrese un numero negativo: "));
+#imprimir un numero negativo junto con su positivo
+  
+numero = float(input("Ingrese un número: "))  
 
-if (numero > 0):
-    print("Ingrese un numero negativo");
-elif (numero < 0 ):
-    convertir = abs(numero)
-    print( f"Su número negativo es: {numero} \n su número convertido es: {convertir}");
+  
+if numero < 0:  
+      
+    print("El número negativo es:",numero)
+    print("Su equivalente positivo es: ",abs(numero))    
+   
+else:  
+    # Indicar que el número no es negativo  
+    print("El número ingresado no es negativo.")  
